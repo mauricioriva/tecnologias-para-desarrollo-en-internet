@@ -1,0 +1,20 @@
+{
+  "persona": [
+    {
+      "id": 1,
+      "nombre": "eeeeeee",
+      "apellidos": "Ya no soy",
+      "fecha_nacimiento": "2020-09-03",
+      "domicilio": "Ivan nel",
+      "rfc": "delacruz sanchez"
+    },
+    {
+      "id": 2,
+      "nombre": "111111",
+      "apellidos": "1111",
+      "fecha_nacimiento": "2020-10-07",
+      "domicilio": "1111",
+      "rfc": "111"
+    }
+  ]
+}
