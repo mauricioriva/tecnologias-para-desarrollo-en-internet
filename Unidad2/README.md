@@ -1,24 +1,24 @@
 Practica 1
 ==========
 
-# Pumasos
+## Pumasos
 
 * Mauricio Riva Palacio Orozco
 * Erick
 * Palacios Crispín Edgar Samuel
 * Rodrigo Alvar Reyna Trejo
 
-# Backend
+## Backend
 
-## Install
+### Install
     ]$ npm install -g json-server
-## Run
+### Run
     ]$ json-server --watch back.json
 
-# FrontEnd
+## FrontEnd
     ]$ cd my-first-app
 
-## Install
+### Install
 - NodeJS
 - NPM
 - Angular
@@ -29,7 +29,7 @@ Practica 1
 
 Faltan algunos comandos de instalacion
 
-## Run
+### Run
 
     ]$ ng serve
 
