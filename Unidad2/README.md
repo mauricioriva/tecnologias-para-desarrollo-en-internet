@@ -1,12 +1,7 @@
 Practica 1
 ==========
 
-## Pumasos
-
 * Mauricio Riva Palacio Orozco
-* Erick
-* Palacios Crispín Edgar Samuel
-* Rodrigo Alvar Reyna Trejo
 
 ## Backend
 
@@ -22,14 +17,17 @@ Practica 1
 - NodeJS
 - NPM
 - Angular
- 
+
         ]$ npm install -g @angular/cli
         ]$ npm i express morgan promise-mysql cors
         ]$ npm i @types/express @types/morgan @types/cors -D
-
-Faltan algunos comandos de instalacion
+        ]$ npm i bootstrap jquery @types/jquery
 
 ### Run
 
     ]$ ng serve
+
+El boton editar no funcionaba debido a que debia de crear un modal casi igual al
+de agregar un nuevo usuario, ademas de agregar la funcion ``openModalPersonaEditar(persona)`` 
+Y modificar un poco la funcion ``updatePersona()`` para que apuntara a este nuevo modal.
 
