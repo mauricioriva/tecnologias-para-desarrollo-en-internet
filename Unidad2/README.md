@@ -15,7 +15,7 @@ Practica 1
 ### Run
     ]$ json-server --watch back.json
 
-## FrontEnd
+## Frontend
     ]$ cd my-first-app
 
 ### Install
