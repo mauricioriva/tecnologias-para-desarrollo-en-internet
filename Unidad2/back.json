@@ -2,19 +2,19 @@
   "persona": [
     {
       "id": 1,
-      "nombre": "eeeeeee",
-      "apellidos": "Ya no soy",
-      "fecha_nacimiento": "2020-09-03",
-      "domicilio": "Ivan nel",
-      "rfc": "delacruz sanchez"
+      "nombre": "Carlos",
+      "apellidos": "Hernandez de la Cruz",
+      "fecha_nacimiento": "1995-11-03",
+      "domicilio": "Del. Benito Juarez, Insurgentes Sur #32, C.P. 12345",
+      "rfc": "HECC950311HH6"
     },
     {
       "id": 2,
-      "nombre": "111111",
-      "apellidos": "1111",
-      "fecha_nacimiento": "2020-10-07",
-      "domicilio": "1111",
-      "rfc": "111"
+      "nombre": "Sandra Magali",
+      "apellidos": "Perez Gutierrez",
+      "fecha_nacimiento": "1990-08-07",
+      "domicilio": "Insurgentes Norte #43, Del. Miguel Hidalgo, C.P. 54321",
+      "rfc": "PEGS900807CW1"
     }
   ]
 }

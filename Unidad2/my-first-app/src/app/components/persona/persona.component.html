@@ -12,7 +12,7 @@
             <table class="table">
                 <thead class="thead-light">
                     <tr>
-                        <th class="text-center">Nombre</th>
+                        <th class="text-center">Nombre(s)</th>
                         <th class="text-center">Apellidos</th>
                         <th class="text-center">Fecha de Nacimiento</th>
                         <th class="text-center">Domicilio</th>
@@ -57,7 +57,7 @@
 
                 <form [formGroup]="personaForm" (ngSubmit)="createPersona()">
                     <div class="form-group">
-                        <label for="nombre">Nombre<span class="text-danger">*</span></label>
+                        <label for="nombre">Nombre(s)<span class="text-danger">*</span></label>
                         <input type="text" formControlName="nombre" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.nombre.errors }">
                         <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
                             <div *ngIf="f.nombre.errors.required">El nombre de la persona es obligatorio</div>
@@ -124,7 +124,7 @@
 
                 <form [formGroup]="personaForm" (ngSubmit)="updatePersona()">
                     <div class="form-group">
-                        <label for="nombre">Nombre<span class="text-danger">*</span></label>
+                        <label for="nombre">Nombre(s)<span class="text-danger">*</span></label>
                         <input type="text" formControlName="nombre" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.nombre.errors }">
                         <div *ngIf="submitted && f.nombre.errors" class="invalid-feedback">
                             <div *ngIf="f.nombre.errors.required">El nombre de la persona es obligatorio</div>
