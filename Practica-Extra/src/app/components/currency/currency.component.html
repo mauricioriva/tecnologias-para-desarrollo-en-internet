@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="card mb-3">
+
+        <!-- Header  -->
+        <div class="card-header">
+            <h3>Exchange Rate</h3>
+            <h6>BASE: {{ currency.base }}</h6>
+            <h6>date: {{ currency.date }}</h6>
+        </div>
+
+        <!-- Body  -->
+        <div class="card-body">
+            <div style="float: right;">
+                <input [(ngModel)]="rate" type="text" value="usd" placeholder="usd" minlength="3" maxlength="3" required> 
+                <button (click)="getCurrency()" type="button" class="btn btn-primary">Consultar</button>
+            </div>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th class="text-center">Rate</th>
+                        <th class="text-center">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let exchange of rates">
+                        <td class="text-center align-middle">{{ exchange.rate }}</td>
+                        <td class="text-center align-middle">{{ exchange.value }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
