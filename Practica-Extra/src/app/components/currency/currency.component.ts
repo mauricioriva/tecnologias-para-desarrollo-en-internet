@@ -20,11 +20,13 @@ export class CurrencyComponent implements OnInit {
 
   ngOnInit(): void {
     this.rate = 'usd';
+    console.log(1);
     this.getCurrency();
   }
 
   getCurrency(){
     console.log(this.rate);
+    console.log(2);
     this.rates = [];
     var ex = null;
     this.currencyService.getCurrency(this.rate).subscribe(
@@ -36,6 +38,7 @@ export class CurrencyComponent implements OnInit {
           this.rates.push(ex);
         }
         console.log(this.rates);
+        console.log(3);
       },
       err => console.error(err)
     )
